@@ -41,3 +41,5 @@ int main(){
     pattern2(a);
     return 0; 
 }
+
+//pattern code 
