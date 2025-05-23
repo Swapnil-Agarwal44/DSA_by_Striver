@@ -1,9 +1,10 @@
 // to create the pattern 
 
-// 1      1
-// 12    21
-// 123  321
-// 12344321
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
 
 
 #include<bits/stdc++.h>
@@ -19,7 +20,7 @@ for(int i=1; i<=n; i++){
 }
 
 void pattern2(int n){
-    for(int i=1; i<=n; i++){
+    for(int i=1; i<=4; i++){
         for(int j=1;j<=i; j++){
             cout<<j;
         }
